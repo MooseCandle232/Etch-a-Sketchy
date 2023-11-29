@@ -1,0 +1,30 @@
+body {
+    background-color:rgb(175, 97, 97);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 50px;
+}
+
+.canvas {
+    display: grid;
+    background-color:darkorchid;
+    width: 480px;
+    height: 480px;  
+}
+
+.canvas > div {
+    background-color: white;
+    /* border: black solid 1px; */
+    margin: 0;
+}
+
+.side-button {
+    display: flex;
+
+}
